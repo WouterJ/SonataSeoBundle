@@ -188,4 +188,12 @@ class SonataSeoExtension extends Extension
             "Sonata\\SeoBundle\\Twig\\Extension\\SeoExtension",
         ));
     }
+    
+    /**
+     * {@inheritDoc}
+     */
+    public function getNamespace()
+    {
+        return 'http://sonata-project.com/schema/dic/seo';
+    }
 }
